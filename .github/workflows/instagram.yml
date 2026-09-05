@@ -33,7 +33,7 @@ jobs:
           mosquitto_pub \
             -h broker.emqx.io \
             -p 1883 \
-            -t "dotekomanie-9p3K7xQ" \
+            -t "dotekomanie-9p3K7xQ/custom" \
             -m '{
               "text": [
                 {
